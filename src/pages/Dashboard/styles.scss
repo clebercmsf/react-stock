@@ -1,0 +1,38 @@
+@import "../../sass/index.scss";
+
+h1 {
+  font-size: 3.2em;
+  font-weight: 300;
+}
+.section__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 2rem;
+}
+.section__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 55rem;
+}
+.list__header {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background-color: $secondary-color;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 0 .5rem $secondary-color;
+}
+.running-out-header {
+  grid-template-columns: 3fr 1fr 1fr;
+}

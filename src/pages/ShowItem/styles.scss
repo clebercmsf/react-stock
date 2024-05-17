@@ -1,0 +1,46 @@
+@import "../../sass/index.scss";
+
+.show-items__header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  align-items: center;
+  padding: .5em;
+
+  span {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  div {
+    display: flex;
+    gap: .8rem;
+  }
+}
+
+.show-items__content {
+  margin-top: 2rem;
+
+  label {
+    padding: 1rem 1.3rem;
+    border-radius: .3rem;
+    background-color: $secondary-color;
+    box-shadow: 0 0 .5rem $secondary-color;
+    font-weight: 500;
+  }
+  span {
+    font-weight: 400;
+  }
+  p {
+    margin: 2rem 0;
+  }
+}
+.content-informations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.content-dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

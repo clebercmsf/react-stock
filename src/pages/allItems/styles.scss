@@ -1,0 +1,51 @@
+@import "../../sass/index.scss";
+
+.all-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+.all-items__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: .5rem;
+  background-color: $secondary-color;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 0 .5rem $secondary-color;
+}
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: .5rem;
+  padding: 1rem;
+  align-items: center;
+
+  div {
+    display: flex;
+    gap: .5rem;
+  }
+}
+@media (max-width: 767px) {
+  .all-items__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 680px) {
+  .all-items__header {
+    justify-content: center;
+  }
+  .item {
+    justify-content: center;
+  }
+}
