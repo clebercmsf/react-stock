@@ -29,7 +29,7 @@ export default function allItems () {
             removeItem={() => itemList.removeItem(item.id)}
           />
         ))
-        : null}
+        : <h2>Nenhum item cadastrado...</h2>}
       </div>
     </div>
   );

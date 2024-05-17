@@ -26,7 +26,7 @@ export default function ListRecentItems() {
             quantity={undefined}
           />
         ))
-        : null}
+        : <h2>Nenhum item recente...</h2>}
       </div>
     </div>
   );

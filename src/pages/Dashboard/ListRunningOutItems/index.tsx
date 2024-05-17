@@ -27,7 +27,7 @@ export default function ListRunningOutItems() {
             quantity={item.quantity}
           />
         ))
-        : null}
+        : <h2>Nenhum item acabando...</h2>}
       </div>
     </div>
   );
