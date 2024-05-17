@@ -35,7 +35,7 @@ export default function ShowItem () {
           </div>
         </div>
         <p>{item.description}</p>
-        <div className="content-date">
+        <div className="content-dates">
           <span>Cadastrado em: {item.creationDate}</span>
           <span>Atualizado em: {item.lastUpdateDate}</span>
         </div>
